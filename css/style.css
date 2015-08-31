@@ -1,0 +1,282 @@
+.container-land-vehicle,
+.container-water-vehicle,
+.container-air-vehicle,
+.container-amphibious-vehicle {
+	display: inline-block;
+	width: 100%;
+	padding: 15px;
+	float: left;
+	clear: both;
+	margin-bottom: 21px;
+}
+
+.air-acelerate.air-down-acelerate {
+	float: left;
+}
+
+.logo {
+	background: 0;
+	margin-top: 23px;
+	margin-left: 0;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#headerwrap {
+	color: #E04006;
+	text-shadow:1px 1px 1px #343434;
+	background: #2E3639;
+	padding: 0;
+	margin:0;
+	margin-top:-30px;
+	font-family:tahoma, arial, sans-serif;
+	height: 70px;
+	text-align:center;
+	line-height:70px
+}
+
+#headerwrap a{
+  color: #FFF;
+}
+/* ---------------------------------------------- Land Vehicle ---------------------------------------------- */
+.topwrap2 {
+	color: #777;
+	background: #FFF url(http://i.imgur.com/xNhLRsL.png) top center repeat-x;
+	background-color: transparent;
+	box-shadow: none;
+	padding: 0;
+	margin:0;
+	height: 500px;
+	border-bottom: 0 solid #333;
+	margin: auto auto;
+	vertical-align: middle;
+}
+
+
+.topwrap2 {
+	-moz-animation: bgscroll 25s infinite linear;
+	-ms-animation: bgscroll 25s infinite linear;
+	-o-animation: bgscroll 25s infinite linear;
+	-webkit-animation: bgscroll 25s infinite linear;
+}
+
+.car {
+	background: url('../images/sports-car-clipart-sportscar.png')center center no-repeat;
+	padding: 0;
+    z-index: 99;
+	height: 145px;
+	position: relative;
+	top: 330px;
+	-moz-animation: bgscroll2 3000s infinite linear;
+	-ms-animation: bgscroll2 3000s infinite linear;
+	-o-animation: bgscroll2 3000s infinite linear;
+	-webkit-animation: bgscroll2 3000s infinite linear;
+    -webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 1.3s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+/* ---------------------------------------------- Water Vehicle ---------------------------------------------- */
+.topwrap3 {
+	color: #777;
+	background: #FFF url('../images/ocean.jpg') top center repeat-x;
+	background-color: transparent;
+	box-shadow: none;
+	padding: 0;
+	margin:0;
+	height: 500px;
+	border-bottom: 0 solid #333;
+	margin: auto auto;
+	vertical-align: middle;
+}
+
+
+.topwrap3 {
+	-moz-animation: bgscroll 25s infinite linear;
+	-ms-animation: bgscroll 25s infinite linear;
+	-o-animation: bgscroll 25s infinite linear;
+	-webkit-animation: bgscroll 25s infinite linear;
+}
+
+.lancha {
+	background: url('../images/lancha.png')center center no-repeat;
+	padding: 0;
+    z-index: 99;
+	height: 145px;
+	position: relative;
+	top: 300px;
+	-moz-animation: bgscroll2 3000s infinite linear;
+	-ms-animation: bgscroll2 3000s infinite linear;
+	-o-animation: bgscroll2 3000s infinite linear;
+	-webkit-animation: bgscroll2 3000s infinite linear;
+    -webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 1.3s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+/* ---------------------------------------------- Air Vehicle ---------------------------------------------- */
+.plane {
+	background: url(http://i.imgur.com/Wfy62jo.png)center center no-repeat;
+	padding: 0;
+    z-index: 99;
+	height: 145px;
+	-moz-animation: bgscroll2 3000s infinite linear;
+	-ms-animation: bgscroll2 3000s infinite linear;
+	-o-animation: bgscroll2 3000s infinite linear;
+	-webkit-animation: bgscroll2 3000s infinite linear;
+    -webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 1.3s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+.plane2 {
+	background: url(http://i.imgur.com/wkcwToa.png)center center no-repeat;
+	padding: 0;
+	z-index: -99;
+	height: 145px;
+	margin-top: -80px;
+	-moz-animation: bgscroll2 3500s infinite linear;
+	-ms-animation: bgscroll2 3500s infinite linear;
+	-o-animation: bgscroll2 3500s infinite linear;
+	-webkit-animation: bgscroll2 3500s infinite linear;
+}
+
+.topwrap1 {
+	color: #777;
+	background: #FFF url(http://i.imgur.com/xNhLRsL.png) top center repeat-x;
+	background-color: transparent;
+	box-shadow: none;
+	padding: 0;
+	margin:0;
+	height: 470px;
+	border-bottom: 0 solid #333;
+	margin: auto auto;
+	vertical-align: middle;
+}
+
+
+.topwrap1 {
+	-moz-animation: bgscroll 25s infinite linear;
+	-ms-animation: bgscroll 25s infinite linear;
+	-o-animation: bgscroll 25s infinite linear;
+	-webkit-animation: bgscroll 25s infinite linear;
+}
+
+/* ---------------------------------------------- Amphibious Vehicle ---------------------------------------------- */
+.topwrap4 {
+	color: #777;
+	background: #FFF url('../images/arena.jpg') top center repeat-x;
+	background-color: transparent;
+	box-shadow: none;
+	padding: 0;
+	margin:0;
+	height: 500px;
+	border-bottom: 0 solid #333;
+	margin: auto auto;
+	vertical-align: middle;
+}
+
+
+.topwrap4 {
+	-moz-animation: bgscroll 25s infinite linear;
+	-ms-animation: bgscroll 25s infinite linear;
+	-o-animation: bgscroll 25s infinite linear;
+	-webkit-animation: bgscroll 25s infinite linear;
+}
+
+.amphibious {
+	background: url('../images/amphibious.png')center center no-repeat;
+	padding: 0;
+    z-index: 99;
+	height: 315px;
+	position: relative;
+	top: 170px;
+	-moz-animation: bgscroll2 3000s infinite linear;
+	-ms-animation: bgscroll2 3000s infinite linear;
+	-o-animation: bgscroll2 3000s infinite linear;
+	-webkit-animation: bgscroll2 3000s infinite linear;
+    -webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 1.3s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+.select-fins, .select-propelling-nozzle {
+	display: none;
+}
+.content-propellers, .content-acelerate, 
+.content-propelling{
+	margin-top:7px;
+}
+/* BEGIN ANIMATIONS */
+
+@-webkit-keyframes bgscroll {
+	from {background-position: 0 0;}
+	to {background-position: -9999px 0;}
+}
+
+@-moz-keyframes bgscroll {
+	from {background-position: 0 0;}
+	to {background-position: -9999px 0;}
+}
+
+@-ms-keyframes bgscroll {
+	from {background-position: 0 0;}
+	to {background-position: -9999px 0;}
+}
+
+@-o-keyframes bgscroll {
+	from {background-position: 0 0;}
+	to {background-position: -9999px 0;}
+}
+
+@keyframes bgscroll {
+	from {background-position: 0 0;}
+	to {background-position: -9999px 0;}
+}
+
+@-webkit-keyframes bgscroll2 {
+	from {background-position: 0 0;}
+	to {background-position: 9999px 0;}
+}
+
+@-moz-keyframes bgscroll2 {
+	from {background-position: 0 0;}
+	to {background-position: 9999px 0;}
+}
+
+@-ms-keyframes bgscroll2 {
+	from {background-position: 0 0;}
+	to {background-position: 9999px 0;}
+}
+
+@-o-keyframes bgscroll2 {
+	from {background-position: 0 0;}
+	to {background-position: 9999px 0;}
+}
+
+@keyframes bgscroll2 {
+	from {background-position: 0 0;}
+	to {background-position: 9999px 0;}
+}
+
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(0px, 0px) rotate(0deg); }
+	10% { -webkit-transform: translate(0px, 0px) rotate(1deg); }
+	20% { -webkit-transform: translate(0px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 0px) rotate(0deg); }
+	40% { -webkit-transform: translate(0px, 0px) rotate(1deg); }
+	50% { -webkit-transform: translate(0px, 0px) rotate(-1deg); }
+	60% { -webkit-transform: translate(0px, 0px) rotate(0deg); }
+	70% { -webkit-transform: translate(0px, 0px) rotate(0deg); }
+	80% { -webkit-transform: translate(0px, 0px) rotate(0deg); }
+	90% { -webkit-transform: translate(0px, 0px) rotate(0deg); }
+	100% { -webkit-transform: translate(0px, 0px) rotate(-1deg); }
+}

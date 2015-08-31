@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Animation Vehicles</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Land Vehicle -->
+        <div class="container-land-vehicle alert alert-success">
+            <h1>Land Vehicle</h1>
+            <div class="topwrap2">
+                <div class="car"></div>
+            </div>
+            <!-- Indicates a successful or positive action -->
+            <div class="form-group">
+                <label for="sel1">Select Speed:</label>
+                <select id="option-speed" class="form-control">
+                  <option value="60">60km/h</option>
+                  <option value="120">120km/h</option>
+                  <option value="180">180km/h</option>
+                  <option value="240">240km/h</option>
+                </select>
+                <label for="sel1">Select Wheels:</label>
+                <select id="option-wheels" class="form-control">
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="6">6</option>
+                    <option value="8">8</option>
+                </select>
+                <div class="content-acelerate">
+                    <button type="button" class="btn land-acelerate btn-success">Acelerate</button>
+                    <button type="button" class="btn land-down-acelerate btn-success">Desacelerate</button>
+                </div>
+            </div>
+        </div>
+        <!-- Water Vehicle -->
+        <div class="container-water-vehicle alert alert-info">
+            <h1>Water Vehicle</h1>
+            <div class="topwrap3">
+                <div class="lancha"></div>
+            </div>
+            <!-- Indicates a successful or positive action -->
+            <div class="content-propellers">
+                <label>Propellers:</label>
+                <button type="button" class="btn water-propeller-acelerate btn-success">On/Off</button>
+            </div>
+            <div class="form-group select-fins-water">
+                <label for="sel1">Select Speed:</label>
+                <select id="option-speed-water" class="form-control">
+                  <option value="40">40km/h</option>
+                  <option value="80">80km/h</option>
+                  <option value="120">120km/h</option>
+                  <option value="160">160km/h</option>
+                </select>
+                <label for="sel1">Select Fins:</label>
+                <select id="option-fins" class="form-control">
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="6">6</option>
+                    <option value="8">8</option>
+                </select>
+                <div class="content-acelerate">
+                    <button type="button" class="btn water-acelerate btn-success">Acelerate</button>
+                    <button type="button" class="btn water-down-acelerate btn-success">Desacelerate</button>
+                </div>
+            </div>
+        </div>
+        <!-- Air Vehicle -->
+        <div class="container-air-vehicle alert alert-warning">
+            <h1>Air Vehicle</h1>
+            <div class="topwrap1">
+                <div class="plane"></div>
+                <div class="plane2"></div>
+            </div>
+            <div class="content-propelling">
+                <label>PropellingNozzle:</label>
+                <button type="button" class="btn air-propelling-acelerate btn-success">On/Off</button>
+            </div>
+            <!-- Indicates a successful or positive action -->
+            <div class="form-group select-propelling-nozzle">
+                <label for="sel1">Select Speed:</label>
+                <select id="option-speed-air" class="form-control">
+                  <option value="200">200km/h</option>
+                  <option value="400">400km/h</option>
+                  <option value="600">600km/h</option>
+                  <option value="800">800km/h</option>
+                </select>
+                <label for="sel1">Select Propelling Nozzle:</label>
+                <select id="option-propelling-nozzle" class="form-control">
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="6">6</option>
+                </select>
+                <div class="content-acelerate">
+                    <button type="button" class="btn air-acelerate btn-success">Acelerate</button>
+                    <button type="button" class="btn air-down-acelerate btn-success">Desacelerate</button>
+                </div>
+            </div>
+        </div>
+        <!-- Amphibious Vehicle -->
+        <div class="container-amphibious-vehicle alert alert-danger">
+            <h1>Amphibious Vehicle</h1>
+            <div class="topwrap4">
+                <div class="amphibious"></div>
+            </div>
+            <div class="content-propellers">
+                <label>Propellers:</label>
+                <button type="button" class="btn amphibious-propeller-acelerate btn-success">On/Off</button>
+            </div>
+            <div class="form-group select-fins">
+                <label for="sel1">Select Speed:</label>
+                <select id="option-speed-amph" class="form-control">
+                  <option value="50">50km/h</option>
+                  <option value="100">100km/h</option>
+                  <option value="150">150km/h</option>
+                  <option value="200">200km/h</option>
+                </select>
+                <label for="sel1">Select Wheels:</label>
+                <select id="option-wheels-amph" class="form-control">
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="6">6</option>
+                    <option value="8">8</option>
+                </select>
+                <label for="sel1">Select Fins:</label>
+                <select id="option-fins-amph" class="form-control">
+                    <option value="0">0</option>
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="6">6</option>
+                    <option value="8">8</option>
+                </select>
+                <div class="content-acelerate">
+                    <button type="button" class="btn amphibious-acelerate btn-success">Acelerate</button>
+                    <button type="button" class="btn amphibious-down-acelerate btn-success">Desacelerate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="libs/jquery-2.1.4.min.js"></script>
+</body>
+<script src="js/script.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</html>
